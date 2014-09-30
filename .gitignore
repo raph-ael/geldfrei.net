@@ -1,0 +1,9 @@
+core/config.php
+**/tmp/
+**/public/files/
+**/public/img/
+**/.settings/
+public/.htaccess
+public/cache/tags.json
+.project
+.buildpath

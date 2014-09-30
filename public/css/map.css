@@ -1,0 +1,115 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+html, body, #map {
+    height: 100%;
+}
+#map
+{
+	margin-top: -18px;
+}
+.navbar-default .navbar-nav > li > a
+{
+	color:#373737 !important;
+}
+.navbar-default .navbar-nav > li.active > a
+{
+	color: #a5af28 !important;
+}
+.container
+{
+	width:100% !important;
+	max-width:none !important;
+}
+#map-menu li > a
+{
+	font-family: "Bree Serif";
+	font-size: 16px;
+	color:#FFFFFF !important;
+	border-right:1px solid #ccd45e;
+}
+#map-menu li > a
+{
+	width: 180px;
+}
+#map-menu li .dropdown-menu
+{
+	width: 400px;
+	top:38px;
+	margin-left:-1px;
+}
+
+#map-menu li > a > .caret
+{
+	color:#FFFFFF;
+}
+#map-menu li > a:hover, #map-menu li.open > a
+{
+	background-color: #c1cb3e !important;
+}
+#map-menu li .dropdown-menu
+{
+	background-color: #FFFFFF;
+}
+#map-menu 
+{
+	background-color: #a5af28;
+}
+.map-list li.checkbox
+{
+	display: block;
+    float: left;
+    height: 35px;
+    margin: 0;
+    padding-left: 20px;
+    width: 176px;
+}
+.map-list-action li.checkbox
+{
+	height: 55px;
+}
+.yamm .yamm-content
+{
+	padding:10px 30px;
+}
+.map-searchform
+{
+	width: 50%;
+	max-width: 250px;
+}
+.pac-container
+{
+	width: 175px !important;
+}
+
+#map-searchpanel
+{
+	
+}
+#main-menu
+{
+	position: absolute;top:0px;
+	right:0px;
+	z-index: 1000;
+}
+#map-nav
+{
+	margin-top:38px;
+	border: 0 none;
+}
+@media(max-width:1680px)
+{
+	#logo
+	{
+		top:0px !important;
+	}
+}
+@media (min-width: 1680px) {
+	#map-nav
+	{
+		margin-top:0px;
+	}
+	
+}

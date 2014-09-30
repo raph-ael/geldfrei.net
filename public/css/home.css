@@ -1,0 +1,413 @@
+.anbieter .text p
+{
+	color:#FFFFFF;
+	margin-top:10px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #383426;
+	font-size:14px;
+	margin-bottom:40px;
+}
+.thumbnail
+{
+	padding:6px !important;
+	border-radius:0 !important;
+}
+.anbieter .text h3
+{
+	text-shadow: 2px 2px 2px #383426;
+	font-size:20px;
+}
+.anbieter img
+{
+	margin-bottom:-32px;
+}
+.bg.floor
+{
+	background-image: url(img/boden.jpg);
+    height: 95px;
+}
+.bg.kitchen
+{
+	background-attachment: fixed;
+    background: url("img/tapete.png") 50% 0 fixed;
+    height: 490px;    
+    -webkit-box-shadow: 1px 2px 8px -1px rgba(0, 0, 0, 0.36);
+-moz-box-shadow: inset 1px 2px 8px -1px rgba(0, 0, 0, 0.36);
+box-shadow: inset 1px 2px 8px -1px rgba(0, 0, 0, 0.36);
+}
+
+.bg.field
+{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	
+	box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	padding:50px;
+}
+#kitchen
+{
+	background-image: url("img/kueche.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    height: 512px;
+    left: 50%;
+    margin-left: -499px;
+    position: absolute;
+    width: 1050px;
+}
+
+.whitetop
+{
+	border-top:5px solid #ffffff;
+}
+.whitebottom
+{
+	border-bottom:5px solid #ffffff;
+}
+.card
+{
+	text-align:center;
+}
+.erde p, .erde h1, .erde h2, .erde h3, .erde
+{
+	color:#FFFFFF;
+}
+.erde
+{
+	padding-top:30px;
+}
+.erde h1
+{
+    margin: 0;
+    padding:0;
+    font-family: Zeyada;
+    font-size: 39px !important;
+    text-shadow: 2px 2px 2px #383426;
+}
+.erde h2
+{
+	font-size: 22px;
+	margin: 15px 0 10px 0;
+	text-shadow: 2px 2px 2px #383426;
+}
+.erde p.small
+{
+	color:#a5af28;
+	margin: 0 0 30px 0;
+	padding: 0;
+	text-shadow: 2px 2px 2px #383426;
+}
+.erde p
+{
+	font-weight: bold;
+	font-size: 14px;
+	text-shadow: 2px 2px 2px #383426;
+}
+.line img
+{
+	position: relative;
+	top:47px;
+}
+.erde a:hover
+{
+	color:#ccd06f;
+}
+.greenright h3
+{
+	background-color: #B3BE33;
+	padding:8px 14px 8px 14px;
+	display:inline-block;
+	-webkit-border-bottom-right-radius: 8px;
+	-webkit-border-bottom-left-radius: 8px;
+	-moz-border-radius-bottomright: 8px;
+	-moz-border-radius-bottomleft: 8px;
+	border-bottom-right-radius: 8px;
+	border-bottom-left-radius: 8px;
+	margin:0;
+	font-family:"Zeyada";
+	color:#FFF;
+	font-size:25px;
+	font-weight:bold;
+	-moz-box-shadow:    2px 3px 2px -1px #000000;
+    -webkit-box-shadow: 2px 3px 2px -1px #000000;
+    box-shadow:         2px 3px 2px -1px #000000;
+}
+
+
+a.hovers span
+{
+	display:block;
+	opacity:0;
+	padding:4px 12px;
+	background-color: #a5af28;
+	color:#FFFFFF;
+	border-radius:5px;
+	position: absolute;
+	font-family: "Bree Serif";
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.32);
+	-moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.32);
+	box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.32);
+	font-size:15px;
+}
+a.hovers:hover span
+{
+	opacity:1;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+.hovers
+{
+	display:block;
+	position: absolute;
+	background-image: url(img/hovers.png);
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+/* küchen items */
+
+.hovers.regal
+{
+	background-position: -457px -359px;
+    height: 50px;
+    left: 626px;
+    top: 120px;
+    width: 235px;
+    z-index: 5;
+}
+
+.transform span
+{
+	-webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+.transform:hover span
+{
+	/*
+	-webkit-transform:rotate(-10deg);
+    -moz-transform:rotate(-10deg);
+    -o-transform:rotate(-10deg);
+    */
+     transform:scale(1.12);
+    -ms-transform:scale(1.12); /* IE 9 */
+    -moz-transform:scale(1.12); /* Firefox */
+    -webkit-transform:scale(1.12); /* Safari and Chrome */
+    -o-transform:scale(1.12); /* Opera */
+}
+
+.transform
+{
+	-webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+}
+.zoom:hover
+{
+	 transform:scale(1.12);
+    -ms-transform:scale(1.12); /* IE 9 */
+    -moz-transform:scale(1.12); /* Firefox */
+    -webkit-transform:scale(1.12); /* Safari and Chrome */
+    -o-transform:scale(1.12); /* Opera */
+}
+.rotate:hover
+{
+	-webkit-transform:rotate(-12deg);
+    -moz-transform:rotate(-12deg);
+    -o-transform:rotate(-12deg);
+}
+
+/* KARTE */
+a.hovers.map
+{
+	background-position: 0 0;
+	width:232px;
+	height: 173px;
+	left: 312px;
+    top: 58px;
+}
+a.hovers.map span
+{
+	top:30px;
+	left:200px;
+}
+a.hovers.map:hover
+{
+	background-position: 0 -189px;
+}
+
+/* tasteomat */
+a.hovers.tasteomat
+{
+ 	background-position: -230px 0px;
+    height: 107px;
+    left: 191px;
+    top: 205px;
+    width: 127px;
+}
+a.hovers.tasteomat span
+{
+	left: 43px;
+    top: -22px;
+}
+a.hovers.tasteomat:hover
+{
+ 	background-position: -230px -109px;
+}
+
+/* anbieter */
+a.hovers.anbieter
+{
+ 	background-position: -360px 0px;
+    height: 110px;
+    left: 50px;
+    top: 34px;
+    width: 86px;
+}
+a.hovers.anbieter span
+{
+	left: -10px;
+    top: -22px;
+}
+a.hovers.anbieter:hover span
+{
+	-webkit-transform:rotate(12deg);
+    -moz-transform:rotate(12deg);
+    -o-transform:rotate(12deg);
+}
+a.hovers.anbieter:hover
+{
+ 	-webkit-transform:rotate(-12deg);
+    -moz-transform:rotate(-12deg);
+    -o-transform:rotate(-12deg);
+}
+/* karteoffeln */
+a.hovers.kartoffeln
+{
+ 	background-position: -322px -219px;
+    height: 83px;
+    left: 219px;
+    top: 419px;
+    width: 93px;
+}
+a.hovers.kartoffeln span
+{
+	left: 59px;
+    top: -6px;
+}
+a.hovers.kartoffeln:hover
+{
+ 	background-position: -322px -317px;
+}
+
+/* magazin */
+a.hovers.magazin
+{
+ 	background-position: -428px -226px;
+    height: 58px;
+    left: 841px;
+    top: 301px;
+    width: 150px;
+}
+a.hovers.magazin span
+{
+	left: 82px;
+    top: -15px;
+}
+a.hovers.magazin:hover
+{
+ 	background-position: -428px -287px;
+}
+
+/* gemuese */
+a.hovers.gemuese
+{
+ 	 background-position: -576px -201px;
+    height: 60px;
+    left: 378px;
+    top: 249px;
+    width: 126px;
+}
+a.hovers.gemuese span
+{
+	left: 82px;
+    top: -15px;
+}
+a.hovers.gemuese:hover
+{
+ 	background-position: -576px -267px;
+}
+
+/*
+
+*/
+/* glossar */
+a.hovers.glossar
+{
+ 	background-position: -534px 5px;
+    height: 90px;
+    left: 745px;
+    top: 60px;
+    width: 130px;
+}
+a.hovers.glossar span
+{
+	left: 50px;
+    top: 5px;
+}
+a.hovers.glossar:hover
+{
+ 	background-position: -534px -98px;
+}
+
+
+/* tv */
+a.hovers.tv
+{
+ 	background-position: -444px 0;
+    height: 111px;
+    left: 785px;
+    top: 204px;
+    width: 90px;
+}
+a.hovers.tv span
+{
+	left: -15px;
+    top: 6px;
+}
+a.hovers.tv:hover
+{
+ 	background-position: -444px -117px;
+}
+
+/* garten */
+a.hovers.garten
+{
+ 	background-position: -231px -215px;
+    height: 80px;
+    left: 652px;
+    top: 76px;
+    width: 90px;
+}
+a.hovers.garten span
+{
+	left: -32px;
+    top: -30px;
+}
+a.hovers.garten:hover
+{
+ 	background-position: -231px -335px;
+}

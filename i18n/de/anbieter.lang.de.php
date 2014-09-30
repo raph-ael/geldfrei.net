@@ -1,0 +1,51 @@
+<?php
+$g_lang['add_anbieter'] = 'Anbieter hinzufügen';
+$g_lang['anbieter'] = 'Anbieter';
+
+$g_lang['homepage'] = 'www.domain.de';
+$g_lang['homepage_desc'] = 'Homepage';
+$g_lang['phone'] = '+49';
+$g_lang['phone_desc'] = 'Telefon';
+$g_lang['fax'] = '+49';
+$g_lang['fax_desc'] = 'Faxnummer';
+$g_lang['arrangement'] = 'nach Vereinbarung';
+$g_lang['daily'] = 'täglich';
+$g_lang['weekly'] = 'wöchentlich';
+$g_lang['availability'] = 'Verfügbarkeit';
+$g_lang['availability_desc'] = 'Verfügbarkeit';
+$g_lang['classifications'] = 'Zertifizierung';
+$g_lang['classifications_desc'] = 'Zertifizierung';
+$g_lang['consumeraction'] = 'Mit-Mach-Art';
+$g_lang['consumeraction_desc'] = 'Wie kann der Konsument mitmachen?';
+$g_lang['vertriebsmodelle'] = 'Vertriebsmodelle';
+$g_lang['vertriebsmodelle_desc'] = 'Vertriebsmodelle';
+
+$g_lang['zeiten'] = 'Öffnungszeiten';
+$g_lang['zeiten_desc'] = 'Öffnungszeiten';
+$g_lang['workercount'] = 'Anzahl';
+$g_lang['workercount_desc'] = 'Anzahl der Mitarbeiter';
+
+$g_lang['gleanings'] = 'Nachlese';
+$g_lang['gleanings_desc'] = 'Nachlese';
+$g_lang['ausschuss'] = 'Ausschuss';
+$g_lang['ausschuss_desc'] = 'Ausschuss';
+$g_lang['notes'] = 'Notizen';
+$g_lang['notes_desc'] = 'Notizen';
+$g_lang['description'] = 'Beschreibung';
+$g_lang['description_desc'] = 'Genaue Beschreibung';
+$g_lang['new_anbieter'] = 'Anbieter oder Produzentenprofil anlegen';
+$g_lang['Speichern'] = 'Speichern';
+$g_lang['Speichern_desc'] = 'Speichern';
+$g_lang['anbieter_edit_success'] = 'Änderungen gespeichert';
+$g_lang['products'] = 'Produktgruppen';
+$g_lang['products_desc'] = 'Welche Produktgruppen bietet der Anbieter an?';
+$g_lang['anbieter_add_success'] = 'Dein Anbieterprofil wurde erfolgreich angelegt!';
+$g_lang['anbieter_add_success_must_activate'] = 'Lieben Dank! Dein Profil wurde angelegt und ist verfügbar sobalt es vom Taste of Heimat Team freigeschaltet wurde.';
+$g_lang['anbieter_edit_success_wait_apply'] = 'Änderungen wurden gespeichert und werden nach überprüfung vom Taste of Heimat Team freigegeben!';
+$g_lang['teaser'] = 'Einleitungstext';
+$g_lang['teaser_desc'] = 'Ein Einleitungstext der einen kurzen Überblick gibt';
+$g_lang['comments'] = 'Bewertungen';
+$g_lang['ansprechpartner_desc'] = 'Ansprechpartner';
+$g_lang['ansprechpartner'] = 'Ansprechpartner';
+$g_lang['size_desc'] = 'Nutzfläche (in m²)';
+$g_lang['size'] = 'm²';
